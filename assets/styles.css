@@ -1,0 +1,175 @@
+* {
+  margin: 30;
+  padding: 30;
+  box-sizing: 30;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+.container {
+  display: flex;
+}
+
+.nav {
+  /*position: fixed;*/
+  width: 25vw;
+  /* height: 100%; */
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+  border-style: solid;
+}
+
+.content {
+  width: 65vw;
+  padding: 1rem 5rem;
+}
+
+.start {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.input-place p {
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  font-weight: bold;
+
+}
+.form {
+  display: right;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  height: 1.5rem;
+  padding-bottom: 25px;
+}
+
+.buttons {
+  margin: 2rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-around;
+}
+#forecast {
+  margin-top: 1rem;
+  height: 2.5rem;
+}
+#n_days {
+  height: 2rem;
+  margin-top: 1rem;
+  font-size: 1.75rem;
+  font-align: center;
+  margin-left: 0.5rem;
+  line-height: 80%;
+}
+
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.header p {
+  font-size: 4rem;
+  margin-left: 3rem;
+  line-height: 80%;
+}
+
+
+#logo {
+  max-width: 15rem;
+  height: auto;
+}
+
+
+.buttons button {
+  margin: 10px;
+  padding: 14px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.buttons button:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.buttons button:active {
+  transform: scale(0.95);
+}
+
+.form button {
+  margin: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.form button:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.form button:active {
+  transform: scale(0.95);
+}
+
+.St_code {
+  /*position: fixed;*/
+  width: 25vw;
+  /* height: 100%; */
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+  border-style: solid;
+}
+
+.St_names {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: bold;
+  text-align: Center;
+}
